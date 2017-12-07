@@ -1,10 +1,14 @@
 //
 //  ViewController.m
-//  无限轮播
+//  SDCycleScrollViewDemo
 //
 //  Created by chen on 16/6/10.
-//  Copyright © 2016年 chen. All rights reserved.
+//  Copyright © 2016年 Gorpeln. All rights reserved.
 //
+
+/*********************************************************
+ *  gitHub  :  https://github.com/GorpelnChen            *
+ *********************************************************/
 
 #import "ViewController.h"
 #import "SDCycleScrollView.h"
@@ -47,7 +51,7 @@
     
     
     //如果轮播图已经初始化就不再alloc
-    if (!cycleScrollView)cycleScrollView = [SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(0,0,headerScrollViewWidth,headerScrollViewHeight/4) imageURLStringsGroup:imageArray]; // 模拟网络延时情景
+    if (!cycleScrollView)cycleScrollView = [SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(0,0,headerScrollViewWidth,headerScrollViewHeight/3) imageURLStringsGroup:imageArray]; // 模拟网络延时情景
     
     cycleScrollView.titlesGroup = titleArray;//标题数组  如果需要显示的话 不显示  注释掉本句就可以
     //    cycleScrollView.titleLabelTextColor=[UIColor redColor];//轮播文字label字体颜色
@@ -55,7 +59,6 @@
     //    cycleScrollView.titleLabelBackgroundColor=[UIColor cyanColor];//轮播文字label背景颜色
     //    cycleScrollView.titleLabelHeight=25.0;//轮播文字label高度
     cycleScrollView.delegate = self;//代理方法
-    
     
     cycleScrollView.pageControlAliment = SDCycleScrollViewPageContolAlimentRight;//小圆点的位置
     cycleScrollView.scrollDirection = UICollectionViewScrollDirectionHorizontal;//转动方向 水平 垂直
@@ -80,12 +83,9 @@
 
 #pragma mark - SDCycleScrollViewDelegate轮播图代理点击代理方法
 //点击轮播图   进入对应的界面  index是下标
-- (void)cycleScrollView:(SDCycleScrollView *)cycleScrollView didSelectItemAtIndex:(NSInteger)index
-{
+- (void)cycleScrollView:(SDCycleScrollView *)cycleScrollView didSelectItemAtIndex:(NSInteger)index{
+    
     NSLog(@"第%d张轮播图",(int)index);
-    
-    
-    
     
 }
 

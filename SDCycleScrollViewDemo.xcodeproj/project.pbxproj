@@ -16,8 +16,6 @@
 		745340951DB77BEE002D6156 /* SDCycleScrollViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 745340941DB77BEE002D6156 /* SDCycleScrollViewDemoTests.m */; };
 		745340A01DB77BEE002D6156 /* SDCycleScrollViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7453409F1DB77BEE002D6156 /* SDCycleScrollViewDemoUITests.m */; };
 		745340B01DB77CF1002D6156 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 745340AF1DB77CF1002D6156 /* ViewController.m */; };
-		745340B31DB77D0A002D6156 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 745340B11DB77D0A002D6156 /* icon.png */; };
-		745340B41DB77D0A002D6156 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 745340B21DB77D0A002D6156 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,8 +54,6 @@
 		745340A11DB77BEE002D6156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		745340AE1DB77CF1002D6156 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		745340AF1DB77CF1002D6156 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		745340B11DB77D0A002D6156 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		745340B21DB77D0A002D6156 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA8F51D269E0350FE31589D1 /* Pods-SDCycleScrollViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDCycleScrollViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SDCycleScrollViewDemo/Pods-SDCycleScrollViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -157,8 +153,6 @@
 		745340AD1DB77C0D002D6156 /* other */ = {
 			isa = PBXGroup;
 			children = (
-				745340B11DB77D0A002D6156 /* icon.png */,
-				745340B21DB77D0A002D6156 /* LaunchScreen.storyboard */,
 				7453407D1DB77BED002D6156 /* AppDelegate.h */,
 				7453407E1DB77BED002D6156 /* AppDelegate.m */,
 				745340831DB77BEE002D6156 /* Main.storyboard */,
@@ -248,6 +242,7 @@
 				TargetAttributes = {
 					745340761DB77BED002D6156 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8MK5S27Q3B;
 					};
 					7453408F1DB77BEE002D6156 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -284,10 +279,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				745340B31DB77D0A002D6156 /* icon.png in Resources */,
 				7453408A1DB77BEE002D6156 /* LaunchScreen.storyboard in Resources */,
 				745340871DB77BEE002D6156 /* Assets.xcassets in Resources */,
-				745340B41DB77D0A002D6156 /* LaunchScreen.storyboard in Resources */,
 				745340851DB77BEE002D6156 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +500,7 @@
 			baseConfigurationReference = BA8F51D269E0350FE31589D1 /* Pods-SDCycleScrollViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8MK5S27Q3B;
 				INFOPLIST_FILE = SDCycleScrollViewDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -520,6 +514,7 @@
 			baseConfigurationReference = 509403C02D1FC658FAE83732 /* Pods-SDCycleScrollViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8MK5S27Q3B;
 				INFOPLIST_FILE = SDCycleScrollViewDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
