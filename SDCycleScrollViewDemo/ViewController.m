@@ -51,7 +51,7 @@
     
     
     //如果轮播图已经初始化就不再alloc
-    if (!cycleScrollView)cycleScrollView = [SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(0,0,headerScrollViewWidth,headerScrollViewHeight/3) imageURLStringsGroup:imageArray]; // 模拟网络延时情景
+    if (!cycleScrollView)cycleScrollView = [SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(0,0,headerScrollViewWidth,headerScrollViewHeight /4) imageURLStringsGroup:imageArray]; // 模拟网络延时情景
     
     cycleScrollView.titlesGroup = titleArray;//标题数组  如果需要显示的话 不显示  注释掉本句就可以
     //    cycleScrollView.titleLabelTextColor=[UIColor redColor];//轮播文字label字体颜色
