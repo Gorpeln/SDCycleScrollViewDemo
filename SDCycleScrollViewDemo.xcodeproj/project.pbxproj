@@ -16,6 +16,8 @@
 		745340951DB77BEE002D6156 /* SDCycleScrollViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 745340941DB77BEE002D6156 /* SDCycleScrollViewDemoTests.m */; };
 		745340A01DB77BEE002D6156 /* SDCycleScrollViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7453409F1DB77BEE002D6156 /* SDCycleScrollViewDemoUITests.m */; };
 		745340B01DB77CF1002D6156 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 745340AF1DB77CF1002D6156 /* ViewController.m */; };
+		74CD57F51FFCD58C0019E4A2 /* My_LaunchScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 74CD57F31FFCD58C0019E4A2 /* My_LaunchScreen.png */; };
+		74CD57F61FFCD58C0019E4A2 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 74CD57F41FFCD58C0019E4A2 /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		745340A11DB77BEE002D6156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		745340AE1DB77CF1002D6156 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		745340AF1DB77CF1002D6156 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		74CD57F31FFCD58C0019E4A2 /* My_LaunchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = My_LaunchScreen.png; sourceTree = "<group>"; };
+		74CD57F41FFCD58C0019E4A2 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		BA8F51D269E0350FE31589D1 /* Pods-SDCycleScrollViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDCycleScrollViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SDCycleScrollViewDemo/Pods-SDCycleScrollViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,7 +122,7 @@
 			children = (
 				745340AE1DB77CF1002D6156 /* ViewController.h */,
 				745340AF1DB77CF1002D6156 /* ViewController.m */,
-				745340AD1DB77C0D002D6156 /* other */,
+				745340AD1DB77C0D002D6156 /* Other */,
 				7453407A1DB77BED002D6156 /* Supporting Files */,
 			);
 			path = SDCycleScrollViewDemo;
@@ -150,17 +154,19 @@
 			path = SDCycleScrollViewDemoUITests;
 			sourceTree = "<group>";
 		};
-		745340AD1DB77C0D002D6156 /* other */ = {
+		745340AD1DB77C0D002D6156 /* Other */ = {
 			isa = PBXGroup;
 			children = (
 				7453407D1DB77BED002D6156 /* AppDelegate.h */,
 				7453407E1DB77BED002D6156 /* AppDelegate.m */,
+				74CD57F41FFCD58C0019E4A2 /* icon.png */,
+				74CD57F31FFCD58C0019E4A2 /* My_LaunchScreen.png */,
 				745340831DB77BEE002D6156 /* Main.storyboard */,
 				745340861DB77BEE002D6156 /* Assets.xcassets */,
 				745340881DB77BEE002D6156 /* LaunchScreen.storyboard */,
 				7453408B1DB77BEE002D6156 /* Info.plist */,
 			);
-			name = other;
+			name = Other;
 			sourceTree = "<group>";
 		};
 		7939E9A72D5031995088B211 /* Pods */ = {
@@ -280,7 +286,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7453408A1DB77BEE002D6156 /* LaunchScreen.storyboard in Resources */,
+				74CD57F61FFCD58C0019E4A2 /* icon.png in Resources */,
 				745340871DB77BEE002D6156 /* Assets.xcassets in Resources */,
+				74CD57F51FFCD58C0019E4A2 /* My_LaunchScreen.png in Resources */,
 				745340851DB77BEE002D6156 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
