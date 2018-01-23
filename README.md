@@ -1,2 +1,3 @@
 # SDCycleScrollViewDemo
-![](https://github.com/GorpelnChen/SDCycleScrollViewDemo/blob/master/screenshot/SDCycleScrollViewDemo.gif)
+
+无限轮播
