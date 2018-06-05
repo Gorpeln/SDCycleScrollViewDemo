@@ -7,7 +7,7 @@
 //
 
 /*********************************************************
- *  gitHub  :  https://github.com/GorpelnChen            *
+ *  gitHub  :  https://github.com/Gorpeln                *
  *********************************************************/
 
 #import "ViewController.h"
